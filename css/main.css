@@ -1,0 +1,169 @@
+@font-face {
+    font-family: cursive;
+    src: url(../fonts/cursive.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*Para centrar*/
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+ /*Para centrar*/
+ body{
+ 	font-family: cursive;
+ }
+ .head{
+ 	background-image: url(../img/para%20el%20fondo.png);
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	height: 700px;
+ }
+ .sumate{
+ 	color:white;
+ 	padding: 20px;
+ 	background-color: #FDF608;
+ 	text-decoration: none;
+ 	position: relative;
+ 	border-radius: 5px;
+ 	top: 60px;
+ 	font-family: cursive;
+ }
+ .sumate:hover{
+ 	background-color: #FDF608;
+ }
+ .menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 30px 20px;
+ }
+ .menu a{
+ 	color: white;
+ 	text-decoration:none;
+ 	font-size: 20px;
+ 	font-family: cursive;
+ 	background-color: #FDF608;
+ 	padding: 20px;
+ 	position: relative;
+ 	border-radius: 5px;
+ 	top:30px;
+ 	left: 0;
+ }
+ .menu a:hover{
+ 	background-color:#FDF608;
+ }
+ .menu{
+ 	text-align: right;
+ }
+ .subtitulo{
+ 	font-family: cursive;
+ 	font-size: 20px;
+ 	color:yellow;
+ 	margin-top: 30px;
+ }
+ .logo{
+ 	text-align: center;
+ 	padding: 0 60px 60px 60px;
+ 	background-color: rgba(255,255,255, 0.6);
+ 	position: relative;
+ 	top: 180px;
+ }
+ .logo img{
+ 	width: 90%;
+ 	margin:0;
+ }
+ .section1{
+ 	background-color: #eaeae8;
+ }
+ .foto1{
+ 	background-image: url(../img/foto1.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 80px auto 23px auto;
+ }
+  .foto2{
+ 	background-image: url(../img/foto2.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 130%;
+ 	background-position: center;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 30px auto 10px auto;
+ }
+  .foto3{
+ 	background-image: url(../img/foto3.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 0 auto;
+ }
+  .foto4{
+ 	background-image: url(../img/foto4.jpg);
+ 	background-repeat: no-repeat;
+ 	background-size: 100%;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin: 0 auto;
+ }
+ .trabajo{
+ 	background-color: white;
+ 	padding: 20px;
+ 	margin: 50px 40px;
+ 	height: 550px;
+ }
+ .nombre{
+ 	font-family: cursive;
+ 	font-size: 25px;
+ 	text-align:center;
+ 	margin: 20px 0
+ }
+ .ver{
+ 	display: inline-block;
+ 	color: white;
+ 	text-decoration:none;
+ 	font-size: 15px;
+ 	font-family: cursive;
+ 	background-color: #FDF608;
+ 	padding: 20px;
+ 	border-radius: 5px;
+ 	margin-top: 10px;
+ }
+ .ver:hover{
+    box-shadow: 0px 0px 10px #000000;
+    z-index: 2;
+    transform: scale(1);
+    transition-duration: 1s;
+    opacity: 0.4;
+    color: beige;
+}
+.ver:hover span{
+	transition-duration: 0.1s;
+	color: lightgoldenrodyello;
+}
+ .foto1:hover, .foto2:hover, .foto3:hover, .foto4:hover{
+    box-shadow: 0px 0px 10px #000000;
+    z-index: 2;
+    transform: scale(1.8);
+    transition-duration: 1s;
+    color: lightgoldenrodyellow;
+}
+.foto1:hover, .foto2:hover, .foto3:hover, .foto4:hover span{
+	transition-duration: 0.5s;
+	color: lightgoldenrodyellow;
+}
+.foot{
+	background-color: #FDF608;
+}
+.footext{
+	margin: 20px 0;
+	color:white;
+	font-size: 12px;
+}
